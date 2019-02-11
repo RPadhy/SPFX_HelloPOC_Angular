@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-poc-client-side-solution",
+    "id": "6D749D62-B981-44B4-953F-1F201D83825E",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-poc.sppkg"
+  }
+}

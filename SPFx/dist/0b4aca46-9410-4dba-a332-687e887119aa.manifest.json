@@ -1,0 +1,52 @@
+{
+  "id": "0b4aca46-9410-4dba-a332-687e887119aa",
+  "alias": "HelloPocWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "HelloPOC"
+      },
+      "description": {
+        "default": "This is a test SPFx WP using Angular"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "HelloPOC"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "hello-poc-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "hello-poc-web-part": {
+        "type": "path",
+        "path": "dist/hello-poc-web-part.js"
+      },
+      "HelloPocWebPartStrings": {
+        "defaultPath": "lib/webparts/helloPoc/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.7.1",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.7.1",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      }
+    }
+  }
+}
